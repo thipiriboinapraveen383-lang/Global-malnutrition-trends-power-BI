@@ -4,7 +4,6 @@
 This Power BI project analyzes **global malnutrition trends** among children under five years old from **1983 to 2019**.  
 It focuses on key indicators such as **stunting**, **underweight**, and **wasting rates**, providing valuable insights into how malnutrition affects different regions and income groups over time.
 
----
 
 ## 🎯 Objectives
 - Analyze global patterns and trends of child malnutrition.  

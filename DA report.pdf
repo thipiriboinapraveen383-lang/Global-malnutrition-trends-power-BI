@@ -1,0 +1,140 @@
+Final Project Report  
+1. Introduction  
+1.1. 
+1.2       
+Project overview 
+Malnutrition among children under five remains a serious global health challenge 
+that affects both physical and cognitive development. To better understand the scale 
+and nature of this issue, this project analyzes global malnutrition trends from 1983 
+to 2019, focusing on key indicators such as stunting, wasting, underweight, and 
+overweight. 
+Using Power BI, the analysis visualizes data from multiple countries categorized by 
+income levels low, lower-middle, upper-middle, and high income as well as special 
+classifications like LDC, LLDC, LIFD, and SIDS. The goal is to provide policymakers, 
+NGOs, and researchers with an interactive visual tool that helps identify high-burden 
+regions and supports targeted interventions. 
+Objectives 
+• Identify countries with the highest malnutrition burden. 
+• Compare malnutrition trends across income groups and global regions 
+• Provide actionable insights for policymakers, NGOs, and healthcare organizations. 
+• Develop an interactive Power BI dashboard that enables visual analysis of 
+historical trends and patterns. 
+2. Project Initialization and Planning Phase  
+2.1. 
+Define Problem Statement  
+Malnutrition continues to affect millions of children under the age of five globally, 
+leading to long-term health, education, and economic consequences. Policymakers 
+and organizations often struggle with fragmented interpret 
+2.2. 
+Project Proposal (Proposed Solution)  
+Solution:  Develop a Power BI dashboard that visualizes malnutrition indicators 
+across countries and income levels, enabling comparison, trend analysis, and 
+data-driven decision-making. 
+• Expected Outcomes: 
+1. A prioritized list of countries with high malnutrition burden. 
+2. Visual insights into stunting, wasting, underweight, and overweight trends. 
+3. An interactive tool for decision-makers to monitor progress over time. 
+2.3. Initial Project Planning  
+Task                                    
+Data Collection             
+Timeline                              
+5 October 2025                
+Data Cleaning & 
+Preprocessing               
+Dashboard Design & 
+Visualization                  
+Report Writing              
+6 October 2025                
+7 October 2025                
+9 October 2025               
+3. Data Collection and Preprocessing Phase  
+Responsibility                   
+Self                                          
+Self                                         
+Self                                         
+Self                                          
+3.1. Data Collection Plan and Raw Data Sources Identified 
+Datasets Used: 
+Status 
+Completed 
+Completed 
+Completed 
+Completed 
+1. country-wise averages.csv – Country-level malnutrition metrics. 
+2.  malnutrition-estimates.csv – Detailed data on stunting, wasting, underweight, 
+overweight for U5 children. 
+ Source: Kaggle Global Malnutrition Dataset. 
+3.2. Data Quality Report 
+•  Checked for missing or inconsistent values. 
+• Corrected country names for proper mapping. 
+• Cleaned columns: Stunting_%, Wasting_%, Underweight_%, Overweight_%, 
+Income_Group. 
+• Added calculated column Burden = U5 Population × Stunting_% / 100 for 
+country-level impact. 
+3.3. Data Exploration and Preprocessing  
+•  Computed averages for global and income group comparisons. 
+• Verified outliers and ensured consistent formatting for visualizations. 
+• Preprocessed data is Power BI ready for dashboards and analysis. 
+4. Data Visualization  
+4.1. Framing Business Questions  
+The Dashboard was designed to answer key analytical questions such as : 
+What is the current global average stunting rate among children? 
+How do the underweight and wasting rates compare to stunting globe ? 
+Which regions or continents have the highest concentration of stunting? 
+Which countries have the highest and lowest stunting rates? 
+How have stunting trends evolved over time in specific countries? 
+Are there regional patterns or clusters of countries with similar malnutrition indicators? 
+4.2. Developing Visualizations  
+The key visuals are: 
+Stunting Rate: 25.81 
+Underweight Rate: 13.50 
+Wasting Rate: 6.96 
+A map showing the global distribution of child stunting. 
+A line chart illustrating global trends in child malnutrition from 1983 to 2019. 
+A pie chart depicting the income classification by stunting rate. 
+5. Dashboard  
+5.1. Dashboard Design File  
+The interactive Power BI dashboard consists of two main pages: 
+1. Global Child Malnutrition Dashboard -  A dashboard displaying various data 
+visualizations and metrics related to global child malnutrition, including stunting, 
+underweight, and wasting rates. 
+2. Child Malnutrition Insights – A data visualization dashboard titled "Child Nutrition 
+Insights," displaying various charts and graphs related to child stunting rates by country 
+and over time. 
+6. Report  
+6.1. Story Design File  
+Country Data: The dashboard allows users to select a specific country and a year range from 
+1983 to 2019 to view data. 
+Stunting Rates: A bar chart shows the latest stunting rates by country, with Burundi, Timor
+Leste, and Bangladesh having the highest rates. 
+Stunting Over Time: A line chart shows the overall sum of stunting over the years, indicating a 
+peak around the year 2000. 
+Stunting Rate by Country Over Time: Another chart displays the stunting rate over time for a 
+selection of countries, showing how rates have changed from 1985 to 2020. 
+Global Distribution: A pie chart breaks down the stunting data by country groupings such as 
+LDC, LIFD, and LLDC, showing the percentage contribution of each group. 
+7. Performance Testing  
+7.1 Utilization of Data filters  
+Applied interactive filters for Country, Year, and Income Group to dynamically analyze 
+changes   across dimensions. 
+7.2 No of Visualization 
+The final Power BI dashboard includes 12 key visuals:  
+World Maps, Line Charts, Area Charts, KPI Cards, and Scatter Plots. 
+8. Conclusion/Observation
+• Stunting andunderweightprevalence remainhighinlow-incomecountries. •
+India, Nigeria, and Pakistan contribute most to global stunting burden.
+• Malnutrition is inversely related to income levels.
+• Policy interventions needed for Sub-Saharan Africa and South Asia.
+• Overweightprevalence rising in upper-middle-income countries, indicating double-burden
+malnutrition.
+9. Future Scope
+• Integrate additional datasets on maternal nutrition, vaccination coverage, and micronutrient
+deficiencies.
+• Implementpredictive modeling toforecast future malnutrition trends. •
+Develop mobile-friendly dashboards for accessibility.
+• Combinewithbroaderglobalhealthandsocioeconomicindicators for holistic insights. 10.
+Appendix
+10.1. GitHub&ProjectDemoLink
+·
+GitHub:https://github.com/thipiriboinapraveen383-lang/Global-malnutrition-trends
+power-BI

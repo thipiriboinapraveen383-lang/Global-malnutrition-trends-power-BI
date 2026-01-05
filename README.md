@@ -88,5 +88,5 @@ It focuses on key indicators such as **stunting**, **underweight**, and **wastin
 ---
 
 ## 👩‍💻 Author
-**Pattubala Bhavani**  
+**Praveen thipiriboina**  
 📫 *Data Analyst | Power BI | Python | SQL | Excel* 
